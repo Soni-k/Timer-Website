@@ -7,7 +7,8 @@ displayNoTimersText();
 const startTimerButton = document.getElementById('startTimer');
 // Initialize a flag to track whether a timer is currently active
 let isTimerActive = false;
-//github account id :jaiswalshivani02
+//github account id :
+
 // Add a click event listener to the 'Start New Timer' button
 startTimerButton.addEventListener('click', () => {
     // Parse the input values for hours, minutes, and seconds
@@ -133,7 +134,7 @@ function displayNoTimersText() {
     noTimersText.style.fontSize = "14px";
     activeTimers.appendChild(noTimersText);
 }
-//shivani jaiswal visit my github account : jaiswalshiavni02
+//soni Aggrawal visit my github account:
 // Function to remove "You have no timers currently!" text
 function removeNoTimersText() {
     // Find and remove the "You have no timers currently!" text
